@@ -192,6 +192,7 @@ PRODUCT_PACKAGES += \
     init.crda.sh \
     init.mdm.sh \
     init.oem.rc \
+    init.color.rc \
     init.qcom.class_core.sh \
     init.qcom.coex.sh \
     init.qcom.early_boot.sh \
@@ -511,6 +512,7 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Surface Flinger
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
     ro.surface_flinger.has_HDR_display=true \
@@ -520,3 +522,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.set_touch_timer_ms=200 \
     ro.surface_flinger.use_color_management=true \
     ro.surface_flinger.wcg_composition_dataspace=143261696
+
+# Default Color Mode
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.sf.native_mode=0
