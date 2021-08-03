@@ -29,8 +29,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-aosp
 
-PRODUCT_ENFORCE_RRO_TARGETS := *
-
 # AOSP Recovery
 TARGET_USES_AOSP_RECOVERY := true
 
@@ -390,6 +388,12 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
     vendor.qti.hardware.perf@2.2.vendor
+
+# QTI common
+TARGET_BOARD_PLATFORM := kona
+TARGET_COMMON_QTI_COMPONENTS := \
+    bt \
+    perf 
 
 # QMI
 PRODUCT_PACKAGES += \
