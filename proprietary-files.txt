@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from OnePlus9ROxygen_13.I.02_OTA_0020_all_2104090043_3793108ba578
+# All unpinned blobs below are extracted from OnePlus9ROxygen_13.I.05_OTA_0050_all_2107230024_1c4eeb48d33cc
 
 # ADSP
 vendor/bin/adsprpcd
@@ -830,6 +830,11 @@ vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
+
+# Telephony
+system_ext/framework/qti-telephony-common.jar
+system_ext/framework/qti-telephony-hidl-wrapper.jar
+system_ext/framework/qti-telephony-utils.jar
 
 # Thermal engine
 vendor/bin/thermal-engine
