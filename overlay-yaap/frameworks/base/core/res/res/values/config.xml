@@ -13,7 +13,7 @@
 -->
 <resources>
     <!-- Shows the required view for in-display fingerprint -->
-    <bool name="config_needCustomFODView">true</bool>
+    <bool name="config_supportsInDisplayFingerprint">true</bool>
 
     <string-array name="config_deviceKeyHandlerLibs" translatable="false">
         <item>/system/priv-app/DeviceSettings/DeviceSettings.apk</item>
