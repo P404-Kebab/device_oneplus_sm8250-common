@@ -45,7 +45,6 @@ import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.TwoStatePreference;
 
-import com.android.internal.util.yaap.FileUtils;
 import com.yaap.device.DeviceSettings.Constants;
 import com.yaap.device.DeviceSettings.FPSInfoService;
 
