@@ -32,8 +32,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-yaap
 
-PRODUCT_ENFORCE_RRO_TARGETS := *
-
 # VNDK
 PRODUCT_USE_PRODUCT_VNDK_OVERRIDE := true
 
@@ -338,7 +336,7 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/nxp/opensource/sn100x \
+    vendor/nxp/opensource/halimpl/SN100x \
     vendor/nxp/opensource/packages/apps/Nfc
 
 PRODUCT_PACKAGES += \
@@ -365,7 +363,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.hcef.xml \
     frameworks/native/data/etc/android.hardware.nfc.ese.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.ese.xml \
     frameworks/native/data/etc/android.hardware.nfc.uicc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.uicc.xml \
-    vendor/nxp/opensource/sn100x/halimpl/SN100x/halimpl/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf
+    vendor/nxp/opensource/halimpl/SN100x/halimpl/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf
 
 # OMX
 PRODUCT_PACKAGES += \
@@ -386,6 +384,14 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.0.vendor:64 \
     vendor.qti.hardware.perf@2.1.vendor:64 \
     vendor.qti.hardware.perf@2.2.vendor:64
+
+# QTI common
+TARGET_BOARD_PLATFORM := kona
+TARGET_COMMON_QTI_COMPONENTS := \
+    bt \
+    perf \
+    telephony \
+    usb
 
 # QMI
 PRODUCT_PACKAGES += \
