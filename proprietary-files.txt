@@ -222,21 +222,6 @@ vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
 # DPM  - from LA.UM.9.12.r1-10800-SMxx50.0
-system/framework/tcmclient.jar|cdd1ea7143a5a7acc3909b5cfa706650179647c7
-system_ext/bin/dpmd|f31dd437925322a60b90a0013f0cf45f0da3ee7f
-system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
-system_ext/etc/init/dpmd.rc|738b638ff04cda368e22c03e16baf90ba157a6fc
-system_ext/etc/permissions/com.qti.dpmframework.xml|c4b7ad0879d00c1eba4f3fe3a88ddb8aa153629a
-system_ext/etc/permissions/dpmapi.xml|9158c9789cc7135a685b3fb27f8cc27108b51fef
-system_ext/framework/com.qti.dpmframework.jar|96a29e28b3abffb9223daadd67459e3f5a3271df
-system_ext/framework/dpmapi.jar|2e2fbe2257a697b96a644c774136da0554430d3f
-system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|f2d02195cca305fad78402c65d090bad72955262
-system_ext/lib64/libdiag_system.so|2c18a65a2b776af9af1599dd03d72e3e4129459f
-system_ext/lib64/libdpmctmgr.so|305ff03241dd426af93ad460e616ca4f284c29bd
-system_ext/lib64/libdpmfdmgr.so|232bb4c0f9bf5603e9a1d917dfc6f9e447eb7b4b
-system_ext/lib64/libdpmframework.so|19fc8dae183a79e609b4d473de59d3449f87c7a6
-system_ext/lib64/libdpmtcm.so|9a7bdbcab5e46106fa2c4d90327d0a8118d545d7
-system_ext/lib64/vendor.qti.diaghal@1.0.so|4ef9d68a995e89452479e9ba30218f0b2fd3d57f
 vendor/bin/dpmQmiMgr|3ef49da6492ae9dec3d56ef3ff55c890c6a53d13
 vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|9b0fea7960b0558206bfc10f341bcbb86e9ba11c
@@ -393,23 +378,6 @@ system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
 # IMS - from LA.UM.9.12.r1-10800-SMxx50.0 
--system_ext/app/imssettings/imssettings.apk|8b47c43d56228dcce93cc8c07c6ceb08cb3d2fe5
-system_ext/lib64/lib-imsvideocodec.so|99aae5a22dbaa4a2a78703be9cecd1349f3dcb44
-system_ext/lib64/lib-imsvt.so|d9ad478a372fe9c53821a7482e96f1fc0504dd1c
-system_ext/lib64/lib-imsvtextutils.so|4b4d4475b5805919c0386c5795a8ae2700b67f49
-system_ext/lib64/lib-imsvtutils.so|08d0e7197f6e6f08284450189f7076e1ee546c29
-system_ext/lib64/libimscamera_jni.so|e1f3415ef21497f5bb551b846e7f92297bdd3156
-system_ext/lib64/libimsmedia_jni.so|ad16488a887c84de26d73e3eb529865b3f6ff4ee
-system_ext/lib64/vendor.qti.ims.callcapability@1.0.so|788b7ce5c4e424507057f5bef7bacc6c663e3142
-system_ext/lib64/vendor.qti.ims.callinfo@1.0.so|ee4e22a64ebed410303e5fe8e3961be11edc60a0
-system_ext/lib64/vendor.qti.ims.factory@1.0.so|fbebef1b0de8dbb2a2d059175bf53fa08ef20623
-system_ext/lib64/vendor.qti.ims.factory@1.1.so|35133e8ed8108961802cd9bddc735eeebff66dd1
-system_ext/lib64/vendor.qti.ims.rcsconfig@1.0.so|2ffe2c86e070f5b8d406f5cf27913fe2ecab60e3
-system_ext/lib64/vendor.qti.ims.rcsconfig@1.1.so|414629865b66fe0dced9de924c78d32c01ad5fb1
-system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so|bb94be53fe9f52ed4b69dc42493ac6cb48a720eb
-system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so|94ee2757393b29787ff96a8694c95a7d7d8d7319
-system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|393c5affc1e8e36470705ec44396d1ffa603a541
--system_ext/priv-app/ims/ims.apk|9bd9423a998eae93b2c94a4820459d7b33c8a51a
 -vendor/app/IWlanService/IWlanService.apk|695b3fa7e70f6079cf7e90144fcb79591dff38d0
 vendor/bin/ims_rtp_daemon|6fce676ce5b64043539050cb73d281ddfd1c15b8
 vendor/bin/imsdatadaemon|cbe7b46af4933c8e94fea493c8b34b9b0eb412fb
@@ -637,14 +605,6 @@ vendor/lib64/libqmi_encdec.so|a4531595471e8df68d75e410a1fc4f4f1a3ec2e3
 vendor/lib64/libqmiservices.so|478c3c00422bb468633273a372a71d7b0d22a890
 
 # RIL - from LA.UM.9.12.r1-10800-SMxx50.0
--system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|a32f88ddcc8f9cba18aa5697ee5bd52201e89b13
-system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
-system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
-system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
-system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|4f0056403f56928b8c75a617ba582f17061f89ae
-system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94c3c35a8d
-system_ext/framework/qcrilhook.jar|f2888f922b8347417dfa86741feb8348795fce6f
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|344ad9179560cc83b208f62fb009fdc2799609fd
 -vendor/app/IWlanService/IWlanService.apk|695b3fa7e70f6079cf7e90144fcb79591dff38d0
 vendor/bin/hw/qcrild|ad8316e9f0f42e67f9ee9d4bcc7943c5bc9a0087
 vendor/bin/adpl|cf8d2e3fec8a90bf6fb0cc4dc2995159ad721ccd
