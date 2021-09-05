@@ -448,6 +448,19 @@ vendor/lib64/libpwirishalwrapper.so
 vendor/lib64/vendor.pixelworks.hardware.display@1.0.so
 vendor/lib64/vendor.pixelworks.hardware.display@1.1.so
 vendor/lib64/vendor.pixelworks.hardware.feature@1.0.so
+vendor/etc/init/vendor.pixelworks.hardware.display.iris-service.rc
+vendor/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc
+vendor/etc/inparm/irissoft/mcfCheck.txt
+-vendor/etc/vintf/manifest/vendor.pixelworks.hardware.display.iris-service.xml
+-vendor/etc/vintf/manifest/vendor.pixelworks.hardware.feature.irisfeature-service.xml
+vendor/lib64/libpwiriscalibrate.so
+vendor/lib64/libpwirisIoctlWrapper.so
+vendor/lib64/libpwirisPCS.so
+vendor/lib64/libpwirispq.so
+vendor/lib64/libpwirisservice.so
+vendor/lib64/libpwirissoft.so
+vendor/lib64/libpwsnapdragoncolor.so
+vendor/lib64/libpwsoftirisPCS.so
 
 # IRQ balance - from LA.UM.9.12.r1-10800-SMxx50.0 
 vendor/bin/msm_irqbalance|a761b846ddaa681b65d29b92b22b7f335201a4f4
